@@ -43,6 +43,7 @@
 			<artifactId>spring-context</artifactId>
 			<version>${spring.framework.version}</version>
 		</dependency>
+		
 		<dependency>
 			<groupId>org.hibernate</groupId>
 			<artifactId>hibernate-validator</artifactId>
@@ -99,4 +100,19 @@
 			</plugin>
 		</plugins>
 	</build>
+	<!-- 指定Maven仓库 -->
+	<repositories>
+		<!-- oschina的maven仓库 -->
+		<repository>
+			<id>oschinaRepository</id>
+			<name>local private nexus</name>
+			<url>http://maven.oschina.net/content/groups/public/</url>
+			<releases>
+				<enabled>true</enabled>
+			</releases>
+			<snapshots>
+				<enabled>true</enabled>
+			</snapshots>
+		</repository>
+	</repositories>
 </project>
