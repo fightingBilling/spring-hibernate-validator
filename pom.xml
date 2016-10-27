@@ -22,7 +22,7 @@
 		<slf4j.version>1.7.2</slf4j.version>
 		<logback.version>1.0.6</logback.version>
 		<junit.version>4.10</junit.version>
-		<spring.framework.version>3.1.0.RELEASE</spring.framework.version>
+		<spring.framework.version>3.2.5.RELEASE</spring.framework.version>
 	</properties>
 
 	<dependencies>
@@ -97,9 +97,9 @@
 	<repositories>
 		<!-- oschina的maven仓库 -->
 		<repository>
-			<id>oschinaRepository</id>
-			<name>local private nexus</name>
-			<url>http://maven.oschina.net/content/groups/public/</url>
+			<id>aliyun</id>
+			<name>aliyun</name>
+			<url>http://maven.aliyun.com/nexus/content/groups/public/</url>
 			<releases>
 				<enabled>true</enabled>
 			</releases>

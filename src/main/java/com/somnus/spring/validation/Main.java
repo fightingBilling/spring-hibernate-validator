@@ -46,7 +46,8 @@ public final class Main {
      *
      * @param args - command line arguments
      */
-    public static void main(final String... args) {
+    @SuppressWarnings("resource")
+	public static void main(final String... args) {
 
         LOGGER.info("\n========================================================="
                   + "\n                                                         "
