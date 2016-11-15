@@ -95,7 +95,6 @@
 	</build>
 	<!-- 指定Maven仓库 -->
 	<repositories>
-		<!-- oschina的maven仓库 -->
 		<repository>
 			<id>aliyun</id>
 			<name>aliyun</name>
